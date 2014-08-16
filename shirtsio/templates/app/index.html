@@ -3,11 +3,13 @@
 {% load static %}
 
 <html>
-  <head>
-    <title>Shirts.io</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to the Shirts.io hackathon!</p>
-  </body>
+    <head>
+        <title>Shirts.io</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+    </head>
+
+    <body>
+        <div id="logo"><img src="{% static '/static/img/logo.png' %}"></div>
+        <!-- <p>Welcome to the Shirts.io hackathon!</p> -->
+    </body>
 </html>
