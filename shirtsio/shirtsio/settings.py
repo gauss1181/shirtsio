@@ -24,6 +24,12 @@ TEMPLATE_DIRS = (
     TEMPLATE_PATH,
 )
 
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media')
+
+DATABASE_PATH = os.path.join(PROJECT_PATH, 'app.db')
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
@@ -43,6 +49,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = (
     'django.contrib.admin',
+    'django.contrib.admindocs',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -71,7 +78,7 @@ WSGI_APPLICATION = 'shirtsio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': DATABASE_PATH,
     }
 }
 
