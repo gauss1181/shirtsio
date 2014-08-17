@@ -288,15 +288,14 @@ li.active a, li.active a:hover {
 }
 
 
-
 #tile-number-input {
     margin-top: 30px;
     width: 130px;
     height: 55px;
     font-size: 45px;
     color: #55A3FF;
-
 }
+
 
 #set-number-btn {
   text-align: center;
@@ -327,6 +326,77 @@ li.active a, li.active a:hover {
 }
 
 #set-number-btn:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+#tile-select-btn {
+  text-align: center;
+  margin: 50px auto;
+  position: relative;
+  vertical-align: top;
+  width: 18%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2ecc71;
+  border: 0;
+  border-bottom: 2px solid #28be68;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -3px #28be68;
+  outline-style: none;
+  border-radius: 5px;
+  margin-top: 210px;
+}
+
+#tile-select-btn:hover {
+  background-color: #3CE082;
+
+}
+
+#tile-select-btn:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#submit-print-btn {
+  text-align: center;
+  margin: 50px auto;
+  position: relative;
+  vertical-align: top;
+  width: 18%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2ecc71;
+  border: 0;
+  border-bottom: 2px solid #28be68;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -3px #28be68;
+  outline-style: none;
+  border-radius: 5px;
+  margin-top: 210px;
+}
+
+#submit-print-btn:hover {
+  background-color: #3CE082;
+
+}
+
+#submit-print-btn:active {
   top: 1px;
   outline: none;
   -webkit-box-shadow: none;

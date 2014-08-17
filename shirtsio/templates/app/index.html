@@ -46,7 +46,7 @@
 
                 <div id="tab1" class="tab active">
                     <form id="upload-form" action="#">
-                        <h1 id="upload-instruction">Please choose the image you would like to cut :<br><br>
+                        <h1 id="instruction">Please choose the image you would like to cut :<br><br>
                             <input type="file" name="datafile">
                         </h1>
                         <div>
@@ -57,34 +57,30 @@
 
                 <div id="tab2" class="tab">
                     <form id="set-number" action="#">
-                        <h1 id="upload-instruction">Please enter the desire number of tiles you would like to have :<br><br>
+                        <h1 id="instruction">Please enter the desire number of tiles you would like to have :<br><br>
                         </h1>
                         <input id="tile-number-input" type="text" name="tile-number"><br>
                         <div>
-                            <input id="set-number-btn" type="submit" value="Submit">
+                            <input id="set-number-btn" type="submit" value="Next">
                         </div>
                     </form><!--set-number-form -->
                 </div>
 
                 <div id="tab3" class="tab">
-                    <form id="upload-form" action="#">
-                        <h1 id="upload-instruction">Please choose the image you would like to cut:<br><br>
-                            <input type="file" name="datafile">
-                        </h1>
+                    <form id="tile-select-form" action="#">
+                        <h1 id="instruction">Please select the tile(s) you would like to use :</h1><br><br>
                         <div>
-                            <input id="upload-btn" type="submit" value="Upload">
+                            <input id="tile-select-btn" type="submit" value="Next">
                         </div>
-                    </form><!--upload-form -->
+                    </form><!--tile-select-form -->
                 </div>
 
                 <div id="tab4" class="tab">
-                    <form id="upload-form" action="#">
-                        <h1 id="upload-instruction">ose the image you would like to cut:<br><br>
-                            <input type="file" name="datafile">
-                        </h1>
-                        <div>
-                            <input id="upload-btn" type="submit" value="Upload">
-                        </div>
+                    <form id="print-review-form" action="#">
+                        <h1 id="instruction">Review your selection :</h1><br><br></h1>
+                            <div>
+                                <input id="submit-print-btn" type="submit" value="Submit">
+                            <div>
                     </form><!--upload-form -->
                 </div>
 
