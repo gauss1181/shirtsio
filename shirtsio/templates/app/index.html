@@ -6,6 +6,8 @@
     <head>
         <title>Shirts.io</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/app.js' %}"></script>
     </head>
 
     <body>
@@ -20,17 +22,45 @@
         </div>
 
         <div id="start-btn">
-            <a href="#upload-slice"><input type="submit" value="Start" class="start-button"></a>
-        </div>
-
-        <div id="upload-slice">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper at tellus eu suscipit. Nam est nisl, eleifend nec laoreet in, bibendum at neque. Donec tincidunt libero felis, mattis tristique justo hendrerit nec. Suspendisse interdum sapien leo, vel venenatis magna lacinia vitae. Donec nec vehicula massa, sed gravida mauris. Phasellus commodo risus sed felis mollis elementum. Proin ipsum nisl, pellentesque non enim quis, volutpat porttitor erat. Quisque hendrerit, dolor in tempus faucibus, ante tortor hendrerit ante, et cursus augue erat non tortor. Praesent tempor tempor fringilla. Vestibulum id felis eu turpis bibendum eleifend eu et lacus.Ut aliquam gravida suscipit. Aliquam quis suscipit erat. Sed ut mauris id urna luctus dapibus sed vitae est. Quisque pellentesque luctus ipsum eu dapibus. Suspendisse accumsan quis lectus nec eleifend. Nulla facilisi. Vestibulum egestas odio quis tellus porta, ac rutrum mauris pulvinar. Pellentesque tincidunt id nisi id consectetur. Donec blandit eleifend urna, et convallis turpis bibendum ac. Nam ultrices eget eros ut rutrum. Integer suscipit sem in sagittis suscipit. Vestibulum semper orci eu nisi dapibus imperdiet.
-
-</p>
+            <a href="#working-tabs"><input type="submit" value="Start" class="start-button"></a>
         </div>
 
 
+<!-- ////////////////////////////////////////////// -->
+<!-- ////////////////                ////////////// -->
+<!-- ///////////////  input section /////////////// -->
+<!-- //////////////                //////////////// -->
+<!-- ////////////////////////////////////////////// -->
 
+
+        <div id="working-tabs">
+            <div class="tabs">
+                <ul class="tab-links">
+                    <li class="active"><a href="#tab1">Upload</a></li>
+                    <li><a href="#tab2">Cut</a></li>
+                    <li><a href="#tab3">Print</a></li>
+                </ul>
+
+            <div class="tab-content">
+
+                <div id="tab1" class="tab active">
+                    <p>Tab #1 content goes here!</p>
+                        <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+                </div>
+
+                <div id="tab2" class="tab">
+                    <p>Tab #2 content goes here!</p>
+                    <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+                </div>
+
+                <div id="tab3" class="tab">
+                    <p>Tab #3 content goes here!</p>
+                    <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+                </div>
+
+            </div><!-- /.tab-content -->
+        </div><!-- /.tabs -->
+    </div><!-- /#working tabs -->
 
 
     </body>
