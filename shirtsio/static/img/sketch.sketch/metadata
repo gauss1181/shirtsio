@@ -13,9 +13,10 @@
 		<string>en-hollow-tiles</string>
 		<string>Monaco</string>
 		<string>Candara-Bold</string>
+		<string>SquareFont</string>
 	</array>
 	<key>length</key>
-	<integer>158692</integer>
+	<integer>177151</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
