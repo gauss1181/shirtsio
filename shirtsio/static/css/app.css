@@ -109,8 +109,6 @@ input, select {
 /* ---------------------------------------------------- */
 
 
-
-
 body {
     background-color: #fff;
     font-family: 'Open Sans', serif;
@@ -194,54 +192,67 @@ nav {
     display:inline-block;
 }
 
-    /*----- Tab Links -----*/
-    /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
-    }
+/*----- Tab Links -----*/
+/* Clearfix */
 
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
+.tab-links {
+    margin-left: -5px;
+}
 
-        .tab-links a {
-            padding:9px 15px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#7FB5DA;
-            font-size:16px;
-            font-weight:600;
-            color:#4c4c4c;
-            transition:all linear 0.15s;
-        }
+.tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+}
 
-        .tab-links a:hover {
-            background:#a7cce5;
-            text-decoration:none;
-        }
+.tab-links li {
+    margin:0px 5px;
+    float:left;
+    list-style:none;
+}
 
-    li.active a, li.active a:hover {
-        background:#fff;
-        color:#4c4c4c;
-    }
+.tab-links a {
+    padding:15px 30px;
+    display:inline-block;
+    text-decoration: none;
+    border-radius: 5px 5px 0px 0px;
+    background:#7FB5DA;
+    font-size:32px;
+    font-weight:600;
+    color:#4c4c4c;
+    transition:all linear 0.15s;
+}
 
-    /*----- Content of Tabs -----*/
-    .tab-content {
-        padding:15px;
-        border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:#fff;
-    }
+.tab-links a:hover {
+    background:#a7cce5;
+    text-decoration:none;
+}
 
-        .tab {
-            display:none;
-        }
+li.active a, li.active a:hover {
+    background:#fff;
+    color:#4c4c4c;
+}
 
-        .tab.active {
-            display:block;
-        }
+/*----- Content of Tabs -----*/
+.tab-content {
+    padding:15px;
+    border-radius:0px 5px 5px 5px;
+    box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+    background:#fff;
+}
+
+.tab {
+    display:none;
+    height: 400px;
+}
+
+.tab.active {
+    display:block;
+}
+
+
+
+
+
+
 
