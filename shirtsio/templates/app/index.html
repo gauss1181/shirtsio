@@ -38,12 +38,35 @@
                 <ul class="tab-links">
                     <li class="active"><a href="#tab1">Step 1: Upload</a></li>
                     <li><a href="#tab2">Step 2: Cut</a></li>
-                    <li><a href="#tab3">Step 3: Print</a></li>
+                    <li><a href="#tab3">Step 3: Select</a></li>
+                    <li><a href="#tab4">Step 4: Print</a></li>
                 </ul>
 
             <div class="tab-content">
 
                 <div id="tab1" class="tab active">
+                    <form id="upload-form" action="#">
+                        <h1 id="upload-instruction">Please choose the image you would like to cut :<br><br>
+                            <input type="file" name="datafile">
+                        </h1>
+                        <div>
+                            <input id="upload-btn" type="submit" value="Upload">
+                        </div>
+                    </form><!--upload-form -->
+                </div>
+
+                <div id="tab2" class="tab">
+                    <form id="set-number" action="#">
+                        <h1 id="upload-instruction">Please enter the desire number of tiles you would like to have :<br><br>
+                        </h1>
+                        <input id="tile-number-input" type="text" name="tile-number"><br>
+                        <div>
+                            <input id="set-number-btn" type="submit" value="Submit">
+                        </div>
+                    </form><!--set-number-form -->
+                </div>
+
+                <div id="tab3" class="tab">
                     <form id="upload-form" action="#">
                         <h1 id="upload-instruction">Please choose the image you would like to cut:<br><br>
                             <input type="file" name="datafile">
@@ -54,14 +77,15 @@
                     </form><!--upload-form -->
                 </div>
 
-                <div id="tab2" class="tab">
-                    <p>Tab #2 content goes here!</p>
-                    <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
-                </div>
-
-                <div id="tab3" class="tab">
-                    <p>Tab #3 content goes here!</p>
-                    <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+                <div id="tab4" class="tab">
+                    <form id="upload-form" action="#">
+                        <h1 id="upload-instruction">ose the image you would like to cut:<br><br>
+                            <input type="file" name="datafile">
+                        </h1>
+                        <div>
+                            <input id="upload-btn" type="submit" value="Upload">
+                        </div>
+                    </form><!--upload-form -->
                 </div>
 
             </div><!-- /.tab-content -->
